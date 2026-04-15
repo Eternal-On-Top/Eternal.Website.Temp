@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternal Website Temp</title>
+    <style>
+        body{
+            background: linear-gradient(to right, pink, orange, yellow);
+        } /*Replace with background: #480238; and your own color for the background*/
+
+        #header{
+            background: linear-gradient(to right, yellow, orange, pink); /*same as the body*/
+            color: white; /*text color*/
+            text-align: center;
+            font-size: 80px;
+            border-radius: 20px; /*makes the corners smooth*/
+            outline: 4px solid black; /*makes a outline*/
+        }
+        #box{
+            background: linear-gradient(to right, yellow, orange, pink); /*same as the body*/
+            color: white; /*text color*/
+            text-align: center;
+            font-size: 50px;
+            min-width: auto;
+            height: min-content;
+            border-radius: 20px; /*makes the corners smooth*/
+            outline: 4px solid black; /*makes a outline*/
+        }
+        .boxflex{ /*this makes the boxes go into a grid style instead of going up/down*/
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">Eternal Website Temp</header>
+
+    <div class="boxflex">
+        <div><h1 id="box">The boxes change size depending on what text is added</h1></div>
+        <div><h1 id="box">it can be normal</h1></div>
+        <div><h1 id="box">or it can be loooooooooooooooooooooooooooooooooooooong</h1></div>
+    </div>
+    <div class="boxflex">
+        <div><h1 id="box">or it can be</h1></div>
+        <div><h1 id="box">small</h1></div>
+        <div><h1 id="box">but it is your choice</h1></div>
+    </div>
+</body>
+</html>
